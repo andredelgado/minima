@@ -300,3 +300,13 @@ input[type="text"]{
 footer {
 	padding-top: 110px;
 }
+
+.content p {
+	color: #666665;
+	font-family: Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7em;
+	margin-bottom: 15px;
+	letter-spacing: 0.1px;
+}

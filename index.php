@@ -27,7 +27,8 @@
         <p>Interesting publisher names kept by developers in Windows Phone Store</p>
       </div>
       <span class="articleCat">
-        <p>In:</p> <?php the_category($name) ?>
+        <p>In:</p> <?php the_category($name) ?><br/><br/>
+        <?php the_date(); ?>
       </span>
       <a href="<?php the_permalink(); ?>"><div class="btn right"><p>Read More</p></div></a>
     </article>

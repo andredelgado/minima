@@ -226,6 +226,7 @@ a:hover {
 	-webkit-transition: background-color 0.5s;
 	-moz-transition: background-color 0.5s;
 	transition: background-color 0.5s;
+	margin-top: -20px;
 }
 
 .btn:hover {
@@ -247,6 +248,9 @@ a:hover {
  background-color: #eee;
 }
 
+.articleCat {
+	color: #666665;
+}
 .articleCat li {
 	display: inline;
 	padding-right: 5px;

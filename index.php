@@ -15,7 +15,7 @@
   <header class="featured">
     <img src="http://themes.playnethemes.com/mayde/wp-content/uploads/2014/03/testcase31-copy.jpg">
   </header>
-  <article>
+  <article class="container">
     <h1>title</h1>
     <p>Date</p>
     <p>Categories</p>

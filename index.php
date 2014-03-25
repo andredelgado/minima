@@ -8,7 +8,7 @@
       <img src="http://connormulcahey.com/searchIcon.svg" alt="" />
     </div>
     <div class="welcome">
-      <h1>Welcome</h1>
+      <p></p>
     </div>
 
   </div>
@@ -27,7 +27,7 @@
         <p>Interesting publisher names kept by developers in Windows Phone Store</p>
       </div>
       <span class="articleCat">
-        In: <?php the_category($name) ?>
+        <p>In:</p> <?php the_category($name) ?>
       </span>
       <a href="<?php the_permalink(); ?>"><div class="btn right"><p>Read More</p></div></a>
     </article>

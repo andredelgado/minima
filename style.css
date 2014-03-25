@@ -23,6 +23,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  text-decoration: none;
 }
 html { height: 101%; }
 body { font-size: 62.5%; line-height: 1; font-family: Arial, Tahoma, sans-serif; }
@@ -92,12 +93,56 @@ p { font-size: 1.2em; line-height: 1.0em; color: #333; }
   /* Styles */
 }
 
+/* ###################################### */
+/*		(2) FONTS
+/* ###################################### */
 
+@font-face {
+font-family: 'Myriad Pro Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Bold'), url('MYRIADPRO-BOLD.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Myriad Pro Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
+}
 
 
 /* ###################################### */
 /*		(2) THEME STYLES
 /* ###################################### */
+
+h1,h2,h3,h4{
+	font-family:"Myriad Pro Bold", Verdana, sans-serif;
+	letter-spacing:-0.02em;
+	font-weight:700;
+	font-style:normal;
+	color: #333;
+}
+
+h1 {
+	font-size: 3.50em;
+}
+
+.articleShort p {
+	font-family:"Myriad Pro Regular", Verdana, sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	text-align: justify;
+	color: #666665;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
 
 .featured {
 	width: 100%;
@@ -112,4 +157,28 @@ p { font-size: 1.2em; line-height: 1.0em; color: #333; }
 .container {
 	max-width: 600px;
 	margin: 0 auto;
+}
+
+.btn {
+	width: 125px;
+	height: 40px;
+	background-color: #2ecc71;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.btn:hover {
+	background-color: #27ae60;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+	border-radius: 1px;
+}
+
+.btn p {
+	text-align: center;
+	color: #FFF;
+	font-size: 14px;
+	padding-top: 12px;
 }

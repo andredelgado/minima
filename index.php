@@ -16,10 +16,14 @@
     <img src="http://themes.playnethemes.com/mayde/wp-content/uploads/2014/03/testcase31-copy.jpg">
   </header>
   <article class="container">
-    <h1>title</h1>
-    <p>Date</p>
+    <div class="articleTitle">
+    <h1>Lorem Ipsum</h1>
+  </div>
+  <div class="articleShort">
+    <p>Lorem Ipsum Dolor Ahmet</p>
+  </div>
     <p>Categories</p>
-    <div class="btn">Read More</div>
+    <a href="#"><div class="btn right"><p>Read More</p></div></a>
   </article>
   <footer>
   </footer>

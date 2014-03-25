@@ -123,8 +123,12 @@ src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
 /*		(2) THEME STYLES
 /* ###################################### */
 
+body {
+	font-family: Helvetica, "Myriad Pro Bold", sans-serif;
+}
+
 h1,h2,h3,h4{
-	font-family:"Myriad Pro Bold", Verdana, sans-serif;
+	font-family:"Myriad Pro Bold", Helvetica, sans-serif;
 	letter-spacing:-0.02em;
 	font-weight:700;
 	font-style:normal;
@@ -159,7 +163,7 @@ a:hover {
 	text-align: justify;
 	color: #666665;
 	padding: 15px 0 15px 0;
-	font-family: "Source Sans Pro", Verdana, sans-serif;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
 .articleTitle h1:hover {
@@ -243,22 +247,21 @@ a:hover {
  background-color: #eee;
 }
 
-.articleCat {
-	padding-top: 10px;
-}
-
 .articleCat li {
 	display: inline;
 	padding-right: 5px;
+	font-family: Helvetica, sans-serif;
 }
 
 .articleCat p {
 	display: inline;
-	color: #333;
+	color: #666665;
+	font-family: Helvetica, sans-serif;
 }
 
 .articleCat ul {
 	display: inline;
+	font-family: Helvetica, sans-serif;
 }
 
 .searchBox {

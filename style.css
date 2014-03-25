@@ -111,6 +111,13 @@ font-weight: normal;
 src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff) format('woff');
+}
+
 
 /* ###################################### */
 /*		(2) THEME STYLES
@@ -147,12 +154,12 @@ a:hover {
 }
 
 .articleShort p {
-	font-family:"Myriad Pro Regular", Verdana, sans-serif;
 	font-size: 20px;
 	font-weight: 400;
 	text-align: justify;
 	color: #666665;
-	padding-top: 15px;
+	padding: 15px 0 15px 0;
+	font-family: "Source Sans Pro", Verdana, sans-serif;
 }
 
 .articleTitle h1:hover {
@@ -236,6 +243,10 @@ a:hover {
  background-color: #eee;
 }
 
+.articleCat {
+	padding-top: 10px;
+}
+
 .articleCat li {
 	display: inline;
 	padding-right: 5px;
@@ -243,6 +254,7 @@ a:hover {
 
 .articleCat p {
 	display: inline;
+	color: #333;
 }
 
 .articleCat ul {

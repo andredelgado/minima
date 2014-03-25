@@ -15,16 +15,18 @@
   <header class="featured">
     <img src="http://themes.playnethemes.com/mayde/wp-content/uploads/2014/03/testcase31-copy.jpg">
   </header>
-  <article class="container">
+  <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+  <article class="container articleS">
     <div class="articleTitle">
-    <h1>Lorem Ipsum</h1>
+    <h1><?php the_title(); ?></h1>
   </div>
   <div class="articleShort">
     <p>Lorem Ipsum Dolor Ahmet</p>
   </div>
     <p>Categories</p>
-    <a href="#"><div class="btn right"><p>Read More</p></div></a>
+    <a href="<?php the_permalink(); ?>"><div class="btn right"><p>Read More</p></div></a>
   </article>
+<?php endwhile; endif; ?>
   <footer>
   </footer>
 </body>

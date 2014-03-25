@@ -122,18 +122,29 @@ h1,h2,h3,h4{
 	font-weight:700;
 	font-style:normal;
 	color: #333;
+	-webkit-transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	transition: color 0.5s;
 }
 
 h1 {
-	font-size: 3.50em;
+	font-size: 4.50em;
 }
 
 .articleShort p {
 	font-family:"Myriad Pro Regular", Verdana, sans-serif;
-	font-size: 17px;
+	font-size: 20px;
 	font-weight: 400;
 	text-align: justify;
 	color: #666665;
+	padding-top: 15px;
+}
+
+.articleTitle h1:hover {
+	color: #2ecc71;
+	-webkit-transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	transition: color 0.5s;
 }
 
 .right {
@@ -142,6 +153,10 @@ h1 {
 
 .left {
 	float: left;
+}
+
+.articleS {
+	padding-top: 70px;
 }
 
 .featured {
@@ -160,8 +175,8 @@ h1 {
 }
 
 .btn {
-	width: 125px;
-	height: 40px;
+	width: 100px;
+	height: 30px;
 	background-color: #2ecc71;
 	-webkit-transition: background-color 0.5s;
 	-moz-transition: background-color 0.5s;
@@ -173,12 +188,12 @@ h1 {
 	-webkit-transition: background-color 0.5s;
 	-moz-transition: background-color 0.5s;
 	transition: background-color 0.5s;
-	border-radius: 1px;
+	border-radius: 2px;
 }
 
 .btn p {
 	text-align: center;
 	color: #FFF;
-	font-size: 14px;
-	padding-top: 12px;
+	font-size: 11px;
+	padding-top: 10px;
 }

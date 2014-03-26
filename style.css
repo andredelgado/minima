@@ -316,3 +316,15 @@ footer {
 	margin-bottom: 15px;
 	letter-spacing: 0.1px;
 }
+
+.generalPadding {
+	padding-top:25px;
+}
+
+.breadcrumb {
+	margin-bottom: 40px;
+}
+
+.breadcrumb li {
+	display: inline;
+}

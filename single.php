@@ -19,19 +19,31 @@
     </div>
   </div>
 </header>
-<div class="articleS"</div>
+<div class="generalPadding"</div>
   <section class="container">
-    <span class="articleCat">
-          <?php the_date(); ?> <p>in:</p> <?php the_category($name) ?><br/><br/>
+    <div class="breadcrumb">
+    <ol>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Library</a></li>
+      <li class="active">Data</li>
+    </ol>
+  </div>
+    <span class="articleCat right">
+          <?php the_date(); ?>
           
         </span>
-    <div class="articleShort">
+    <div class="articleShort"><br/>
           <p>Interesting publisher names kept by developers in Windows Phone Store</p>
         </div>
         
   <article class="content">
      <?php the_content(); ?>
   </article>
+   <span class="articleCat">
+          <?php the_category($name) ?>
+          
+        </span>
+  
   </section>
 
   

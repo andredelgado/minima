@@ -23,9 +23,9 @@
   <section class="container">
     <div class="breadcrumb">
     <ol>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Library</a></li>
-      <li class="active">Data</li>
+      <li><a href="#">Home</a></li> /
+      <li><a href="#"><?php the_category($name) ?></a></li> /
+      <li class="active"><?php the_title(); ?></li>
     </ol>
   </div>
     <span class="articleCat right">

@@ -13,10 +13,8 @@ function minima_widgets_init() {
 		'name' => 'Footer Widget Area',
 		'id' => 'footer-widget-area',
 		'description' => 'Widget area located on footer',
-		'before_widget' => '<div class="widgetBox>',
-		'after_widget' => '</div>',
-		'before_title' => '<h3 class="widgetTitle">',
-		'after_title' => '</h3>'
+		'before_widget' => '<li id="%1$s">',
+		'after_widget' => '</li>',
 	));
 }
 

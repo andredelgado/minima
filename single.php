@@ -19,7 +19,7 @@
     </div>
   </div>
 </header>
-<div class="generalPadding"</div>
+<div class="breadcrumSpacing"</div>
   <section class="container">
     <div class="breadcrumb">
     <ol>

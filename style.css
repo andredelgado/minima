@@ -94,7 +94,7 @@ p { font-size: 1.2em; line-height: 1.0em; color: #333; }
 }
 
 /* ###################################### */
-/*		(2) FONTS
+/*		(3) FONTS IMPORT
 /* ###################################### */
 
 @font-face {
@@ -120,7 +120,7 @@ src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
 
 
 /* ###################################### */
-/*		(2) THEME STYLES
+/*		(4) GENERAL STYLES
 /* ###################################### */
 
 body {
@@ -154,29 +154,11 @@ a:hover {
 	-webkit-transition: text-decoration 0.5s;
 	-moz-transition: text-decoration 0.5s;
 	transition: text-decoration 0.5s;
-
 }
 
-.articleShort p {
-	font-size: 20px;
-	font-weight: 400;
-	text-align: justify;
-	color: #666665;
-	padding: 15px 0 15px 0;
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
-}
-
-.articleTitle h1:hover {
-	color: #2ecc71;
-	-webkit-transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	transition: color 0.5s;
-}
-
-.articleTitleFeatured h1 {
-	padding:5px;
-    border-bottom: 10px solid rgba(46, 204, 113,0.8);
-	color: rgba(255,255,255,0.8);
+.container {
+	margin: 0 auto;
+	max-width: 600px;
 }
 
 .right {
@@ -185,10 +167,6 @@ a:hover {
 
 .left {
 	float: left;
-}
-
-.articleS {
-	padding-top: 110px;
 }
 
 .featured {
@@ -214,17 +192,6 @@ a:hover {
     margin-left: -350px;
 }
 
-.welcome h1{
-	text-align: center;
-	color: #FFF;
-	/*border-bottom: 2px solid #f2f2f2;*/
-}
-
-.container {
-	margin: 0 auto;
-	max-width: 600px;
-}
-
 .btn {
 	width: 100px;
 	height: 30px;
@@ -233,14 +200,14 @@ a:hover {
 	-moz-transition: background-color 0.5s;
 	transition: background-color 0.5s;
 	margin-top: -20px;
+	border-radius: 2px;
 }
 
 .btn:hover {
-	background-color: #27ae60;
+	background-color: #333;
 	-webkit-transition: background-color 0.5s;
 	-moz-transition: background-color 0.5s;
 	transition: background-color 0.5s;
-	border-radius: 2px;
 }
 
 .btn p {
@@ -248,6 +215,90 @@ a:hover {
 	color: #FFF;
 	font-size: 11px;
 	padding-top: 10px;
+}
+
+/* Search Box */
+
+input[type="text"]{
+  height: 20px;
+  border: none;
+  border-bottom: 2px solid #f2f2f2;
+  background-color: transparent;
+  color: #f2f2f2;
+  
+  
+  &:hover {
+   
+  }
+  
+  &:focus {
+    outline: none;
+  }
+}
+
+.searchBox img {
+  height: 20px;
+  width: 20px;
+}
+
+footer {
+	padding-top: 110px;
+}
+
+.footerMenu h2 {
+	display:none;
+}
+.footerMenu ul,.footerMenu li {
+	margin:0;
+	padding:0;
+	display:inline;
+	line-height:1em;
+}
+.footerMenu a {
+	display:inline-block;
+	padding:5px;
+	margin:0;
+	text-decoration:none;
+}
+
+
+
+
+
+/* ###################################### */
+/*		(5) LOOP STYLES
+/* ###################################### */
+
+.articleTitle h1:hover {
+	color: #333;
+	-webkit-transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	transition: color 0.5s;
+}
+
+.articleShort p {
+	font-size: 20px;
+	font-weight: 400;
+	text-align: justify;
+	color: #666665;
+	padding: 15px 0 15px 0;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.articleTitleFeatured h1 {
+	padding:5px;
+    border-bottom: 10px solid rgba(46, 204, 113,0.8);
+	color: rgba(255,255,255,0.8);
+}
+
+.articleS {
+	padding-top: 110px;
+}
+
+.welcome h1{
+	text-align: center;
+	color: #FFF;
+	/*border-bottom: 2px solid #f2f2f2;*/
 }
 
 .articleBG:nth-child(even) {
@@ -274,50 +325,14 @@ a:hover {
 	font-family: Helvetica, sans-serif;
 }
 
-.searchBox {
-  width: 100%;
-  text-align: center;
-  top: calc(50% - 20px);
-}
-
-input[type="text"]{
-  height: 20px;
-  border: none;
-  border-bottom: 2px solid #f2f2f2;
-  background-color: transparent;
-  color: #f2f2f2;
-  
-  
-  &:hover {
-   
-  }
-  
-  &:focus {
-    outline: none;
-  }
-}
-
-.searchBox img {
-  height: 20px;
-  width: 20px;
-}
 
 
-footer {
-	padding-top: 110px;
-}
 
-.content p {
-	color: #666665;
-	font-family: Helvetica, sans-serif;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.7em;
-	margin-bottom: 15px;
-	letter-spacing: 0.1px;
-}
+/* ###################################### */
+/*		(6) SINGLE POST/PAGE
+/* ###################################### */
 
-.generalPadding {
+.breadcrumbSpacing {
 	padding-top:25px;
 }
 
@@ -329,18 +344,12 @@ footer {
 	display: inline;
 }
 
-.footerMenu h2 {
-	display:none;
-}
-.footerMenu ul,.footerMenu li {
-	margin:0;
-	padding:0;
-	display:inline;
-	line-height:1em;
-}
-.footerMenu a {
-	display:inline-block;
-	padding:5px;
-	margin:0;
-	text-decoration:none;
+.content p {
+	color: #666665;
+	font-family: Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7em;
+	margin-bottom: 15px;
+	letter-spacing: 0.1px;
 }

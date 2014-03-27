@@ -245,22 +245,6 @@ footer {
 	padding-top: 110px;
 }
 
-.footerMenu h2 {
-	display:none;
-}
-.footerMenu ul,.footerMenu li {
-	margin:0;
-	padding:0;
-	display:inline;
-	line-height:1em;
-}
-.footerMenu a {
-	display:inline-block;
-	padding:5px;
-	margin:0;
-	text-decoration:none;
-}
-
 
 
 

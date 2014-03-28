@@ -9,13 +9,29 @@ function minima_theme_support() {
 }
 
 function minima_widgets_init() {
-	register_sidebar( array(
-		'name' => 'Footer Widget Area',
-		'id' => 'footer-widget-area',
-		'description' => 'Widget area located on footer',
-		'before_widget' => '<li id="%1$s">',
-		'after_widget' => '</li>',
-	));
+	if (function_exists('register_sidebar')) {
+
+    register_sidebar(array(
+        'name' => 'Footer Center',
+        'id'   => 'footer-center-widget',
+        'description'   => 'Center Footer Widget Position.',
+        'before_widget' => '<div id="%1$s">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2>',
+        'after_title'   => '</h2>'
+    ));
+
+    register_sidebar(array(
+        'name' => 'Footer Right',
+        'id'   => 'footer-right-widget',
+        'description'   => 'Right Footer Widget Position.',
+        'before_widget' => '<div id="%1$s">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2>',
+        'after_title'   => '</h2>'
+    ));
+
+}
 }
 
 add_action('init', 'minima_register_theme_menu');

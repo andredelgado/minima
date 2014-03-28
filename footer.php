@@ -2,11 +2,12 @@
 		<div class="footerWrapper">
 			<div class="container">
 				<div class="widgetArea">
-					<?php if ( is_active_sidebar( 'footer-widget-area' ) ) { ?>
-					<aside class="widgets" role="complementary">
-						<?php dynamic_sidebar( 'footer-widget-area' ); ?>
-					</aside>
-					<?php } ?>
+					<div class="widget">
+						<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('footer-center-widget') ) ?>
+					</div>
+					<div class="widget">
+						<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('footer-right-widget') ) ?>
+					</div>
 				</div>
 			</div>
 		</div>

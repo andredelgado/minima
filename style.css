@@ -251,9 +251,26 @@ footer {
 }
 
 .footerBar {
-	padding: 25px 0 25 0;
+	margin-top: 35px;
 	background-color: #FFF;
+	padding-bottom: 35px;
 }
+
+.footerMenu li {
+	display: inline;
+}
+
+.footerMenu a {
+	padding: 5px 10px 5px 10px;
+}
+
+.footerMenu a:hover {
+	color: #FFF;
+	text-decoration: none;
+	background-color: #2ecc71;
+	border-radius: 1px;
+}
+
 
 
 

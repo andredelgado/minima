@@ -9,6 +9,5 @@
   <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
 
   <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
-  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/custom.js"></script>
 </head>
 <body>

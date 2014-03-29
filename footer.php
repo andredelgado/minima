@@ -3,6 +3,10 @@
 			<div class="container">
 				<div class="widgetArea">
 					<div class="widget">
+						<h2>Last Tweets</h2>
+						<div id="lastTweets"></div>
+					</div>
+					<div class="widget">
 						 <?php wp_list_categories(); ?> 
 					</div>
 				</div>
@@ -19,4 +23,6 @@
 			</div>
 		</div>
 	</footer>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/lastTweets.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/custom.js"></script>
 </body>

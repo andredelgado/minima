@@ -272,23 +272,25 @@ footer {
 	border-radius: 1px;
 }
 
-/*.widgetArea li {
-	float: right;
-	display: block;
-}
-
-.widgetArea {
-	display: inline-block;
-}*/
-
 .widget {
 	float: right;
 	font-size: 14px;
 	line-height: 20px;
-	padding-left: 25px
+	padding-left: 25px;
 }
 
+#lastTweets ul {
+	width: 250px;
+}
 
+#lastTweets p {
+	font-size: 10px;
+	line-height: 1.6em;
+}
+
+.tweet li {
+	padding-bottom: 15px;
+}
 
 
 

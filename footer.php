@@ -3,10 +3,7 @@
 			<div class="container">
 				<div class="widgetArea">
 					<div class="widget">
-						<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('footer-center-widget') ) ?>
-					</div>
-					<div class="widget">
-						<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('footer-right-widget') ) ?>
+						 <?php wp_list_categories(); ?> 
 					</div>
 				</div>
 			</div>

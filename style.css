@@ -156,6 +156,10 @@ a:hover {
 	transition: text-decoration 0.5s;
 }
 
+p {
+	font-family: Helvetica, "Myriad Pro Bold", sans-serif;
+}
+
 .container {
 	margin: 0 auto;
 	max-width: 600px;
@@ -248,7 +252,7 @@ footer {
 .footerWrapper {
 	background-color: #eee;
 	padding: 25px 0 25px 0;
-	height: 250px;
+	height: 350px;
 }
 
 .footerBar {
@@ -284,12 +288,17 @@ footer {
 }
 
 #lastTweets p {
-	font-size: 10px;
+	color: #666665;
+	font-size: 12px;
 	line-height: 1.6em;
 }
 
-.tweet li {
-	padding-bottom: 15px;
+#lastTweets li {
+	padding-bottom: 5px;
+}
+
+.interact {
+	visibility: hidden;
 }
 
 

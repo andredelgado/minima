@@ -101,14 +101,14 @@ p { font-size: 1.2em; line-height: 1.0em; color: #333; }
 font-family: 'Myriad Pro Bold';
 font-style: normal;
 font-weight: normal;
-src: local('Myriad Pro Bold'), url('MYRIADPRO-BOLD.woff') format('woff');
+src: local('Myriad Pro Bold'), url('fonts/MYRIADPRO-BOLD.woff') format('woff');
 }
 
 @font-face {
 font-family: 'Myriad Pro Regular';
 font-style: normal;
 font-weight: normal;
-src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
+src: local('Myriad Pro Regular'), url('fonts/MYRIADPRO-REGULAR.woff') format('woff');
 }
 
 @font-face {

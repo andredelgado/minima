@@ -4,10 +4,10 @@
 				<div class="widgetArea">
 					<div class="widget">
 						<div class="social">
-							<p><i class="fa fa-facebook"></i><a href="https://www.facebook.com/delgadoandre">@delgadoandre</a></p>
+							<p><i class="fa fa-facebook"></i><a href="https://www.facebook.com/delgadoandre">delgadoandre</a></p>
 							<p><i class="fa fa-instagram"></i><a href="http://www.instagram.com/andrevdelgado">@andrevdelgado</a></p>
 							<p><i class="fa fa-twitter"></i><a href="http://twitter.com/delgadoandre">@delgadoandre</a></p>
-							<p><i class="fa fa-github"></i><a href="http://github.com/delgadoandre">@andredelgado</a></p>
+							<p><i class="fa fa-github"></i><a href="http://github.com/andredelgado">andredelgado</a></p>
 						</div>
 					</div>
 					<div class="widget" style="padding-left: 60px;">
@@ -31,6 +31,6 @@
 			</div>
 		</div>
 	</footer>
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/lastTweets.js"></script>
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/custom.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>js/lastTweets.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>js/custom.js"></script>
 </body>

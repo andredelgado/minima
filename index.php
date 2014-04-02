@@ -3,13 +3,7 @@
   <img src="http://themes.playnethemes.com/mayde/wp-content/uploads/2014/03/testcase31-copy.jpg">
 
   <div class="featuredInner">
-    <div class="searchBox">
-      <input type="text" value="" name="s" id="s" placeholder="What's you looking for?">
-      <img src="http://connormulcahey.com/searchIcon.svg" alt="" />
-    </div>
-    <div class="welcome">
-      <p></p>
-    </div>
+    
 
   </div>
 </header>

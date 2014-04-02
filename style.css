@@ -282,6 +282,18 @@ footer {
 	float: left;
 }
 
+.widget p {
+	font-size: 12px;
+}
+
+.widget a {
+	font-size: 12px;
+}
+
+.widget li {
+	list-style: none;
+}
+
 .social p {
 	padding-bottom: 5px;
 }

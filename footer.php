@@ -3,11 +3,19 @@
 			<div class="container">
 				<div class="widgetArea">
 					<div class="widget">
+						<div class="social">
+							<p><i class="fa fa-facebook"></i><a href="https://www.facebook.com/delgadoandre">@delgadoandre</a></p>
+							<p><i class="fa fa-instagram"></i><a href="http://www.instagram.com/andrevdelgado">@andrevdelgado</a></p>
+							<p><i class="fa fa-twitter"></i>@delgadoandre</p>
+							<p><i class="fa fa-github"></i>@andredelgado</p>
+						</div>
+					</div>
+					<div class="widget" style="padding-left: 25px;">
+						 <?php wp_list_categories(); ?> 
+					</div>
+					<div class="widget" style="padding-left: 25px;">
 						<h2>Last Tweets</h2>
 						<div id="lastTweets"></div>
-					</div>
-					<div class="widget">
-						 <?php wp_list_categories(); ?> 
 					</div>
 				</div>
 			</div>

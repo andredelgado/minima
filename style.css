@@ -255,16 +255,23 @@ footer {
 	font-size: 12px;
 }
 
-.widget li {
-	list-style: none;
-}
-
 .social p {
 	padding-bottom: 5px;
 }
 
+.widget h2 {
+	font-family: Helvetica;
+	font-weight: normal;
+	font-size: 14px;
+	color: #666665;
+}
+
 .social i {
 	padding-right: 10px;
+}
+
+#lastTweets {
+	padding-top: 10px;
 }
 
 #lastTweets ul {
@@ -283,6 +290,15 @@ footer {
 
 .interact {
 	visibility: hidden;
+}
+
+.categories {
+	list-style: none;
+	color: #666665;
+}
+
+.categories ul {
+	padding-top: 10px;
 }
 
 

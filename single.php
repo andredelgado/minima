@@ -43,6 +43,8 @@
           <?php the_category($name) ?>
           
         </span>
+<br/><br/>
+        <?php comments_template(); ?> 
   
   </section>
 

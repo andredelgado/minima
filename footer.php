@@ -11,7 +11,7 @@
 						</div>
 					</div>
 					<div class="widget" style="padding-left: 60px;">
-						 <?php wp_list_categories(); ?> 
+						 <?php wp_list_categories( ); ?> 
 					</div>
 					<div class="widget" style="padding-left: 60px;">
 						<h2>Last Tweets</h2>
@@ -31,6 +31,8 @@
 			</div>
 		</div>
 	</footer>
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>js/lastTweets.js"></script>
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>js/custom.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/lastTweets.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/ajaxcomments.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/custom.js"></script>
 </body>

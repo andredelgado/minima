@@ -9,7 +9,7 @@
 </header>
 
 
-
+<div id="content">
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   <div class="articleS"></div>
   <div class="articleBG">
@@ -38,7 +38,6 @@
 </div></center>
 </div>
 <?php endif; ?>
-
-
+</div>
 
 <?php get_footer(); ?>

@@ -11,5 +11,6 @@
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/reset.css" type="text/css" />
   <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/fonts/font-awesome-4.0.3/css/font-awesome.min.css" type="text/css" />
+
 </head>
 <body>

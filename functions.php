@@ -28,6 +28,11 @@ function ajaxify_comments($comment_ID, $comment_status){
         }
 }
 
+function show_posts_nav() {
+	global $wp_query;
+	return ($wp_query->max_num_pages > 1);
+}
+
 add_action('comment_post', 'ajaxify_comments',20, 2);
 
 add_action('init', 'minima_register_theme_menu');

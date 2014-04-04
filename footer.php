@@ -3,6 +3,7 @@
 			<div class="container">
 				<div class="widgetArea">
 					<div class="widget">
+						<h2>André Delgado</h2>
 						<div class="social">
 							<p><i class="fa fa-facebook"></i><a href="https://www.facebook.com/delgadoandre">delgadoandre</a></p>
 							<p><i class="fa fa-instagram"></i><a href="http://www.instagram.com/andrevdelgado">@andrevdelgado</a></p>

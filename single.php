@@ -21,17 +21,18 @@
 </header>
 <div class="breadcrumbSpacing"></div>
   <section class="container">
+    <span class="articleCat right" style="margin-top:50px;">
+          <i class="fa fa-calendar" style="padding-right:5px;"></i><?php the_date(); ?>
+          
+        </span>
     <div class="breadcrumb">
     <ol>
-      <li><a href="#">Home</a></li> /
-      <li><a href="#"><?php the_category($name) ?></a></li> /
+      <li><a href="#">Home</a></li> <i class="fa fa-caret-right dark"></i>
+      <li><a href="#"><?php the_category($name) ?></a></li> <i class="fa fa-caret-right dark"></i>
       <li class="active"><?php the_title(); ?></li>
     </ol>
   </div>
-    <span class="articleCat right">
-          <?php the_date(); ?>
-          
-        </span>
+    
     <div class="articleShort"><br/>
           <p>Interesting publisher names kept by developers in Windows Phone Store</p>
         </div>
@@ -40,10 +41,10 @@
      <?php the_content(); ?>
   </article>
    <span class="articleCat">
-          <?php the_category($name) ?>
+          <i class="fa fa-tags" style="padding-right:5px;"></i><?php the_category($name) ?>
           
         </span>
-<br/><br/>
+<br><br>
         <?php comments_template(); ?> 
   
   </section>

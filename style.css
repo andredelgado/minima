@@ -125,6 +125,14 @@ p {
 	font-family: Helvetica, "Myriad Pro Bold", sans-serif;
 }
 
+i {
+	color: #666665;
+}
+
+.dark {
+	color: #333;
+}
+
 .container {
 	margin: 0 auto;
 	max-width: 600px;
@@ -266,6 +274,10 @@ footer {
 	color: #666665;
 }
 
+.social {
+	padding-top: 10px;
+}
+
 .social i {
 	padding-right: 10px;
 }
@@ -339,9 +351,9 @@ footer {
 	/*border-bottom: 2px solid #f2f2f2;*/
 }
 
-.articleBG:nth-child(even) {
+/*.articleBG:nth-child(even) {
  background-color: #eee;
-}
+}*/
 
 .articleCat {
 	color: #666665;
@@ -363,6 +375,32 @@ footer {
 	font-family: Helvetica, sans-serif;
 }
 
+.navigation {
+	margin: 0 auto;
+}
+
+.navigation p {
+
+}
+
+.navigation a {
+	padding: 10px 25px 10px 25px;
+	background-color: #333;
+	border-radius: 2px;
+	color: #FFF;
+	text-decoration: none;
+	font-size: 12px;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.navigation a:hover {
+	background-color: #2ecc71;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
 
 
 
@@ -376,7 +414,11 @@ footer {
 }
 
 .breadcrumb {
-	margin-bottom: 40px;
+	background-color: #eee;
+	border-radius: 2px;
+	padding: 10px;
+	display: inline-block;
+	margin-bottom: 20px;
 }
 
 .breadcrumb li {

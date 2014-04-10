@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <header class="featured">
-  <img src="http://themes.playnethemes.com/mayde/wp-content/uploads/2014/03/testcase31-copy.jpg">
+  <img src="http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_5287d4367585d_1.JPG">
 
   <div class="featuredInner">
     

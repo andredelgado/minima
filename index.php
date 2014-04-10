@@ -31,7 +31,7 @@
 
 
 <?php if (show_posts_nav()) : ?>
-  <div class="container" style="margin-top:150px;">
+  <div class="container" style="margin-top:110px;">
 <center><div class='navigation'>
   <?php next_posts_link('Older Stories'); ?>
   <?php previous_posts_link('Newer Stories'); ?>

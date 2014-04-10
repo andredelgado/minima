@@ -1,4 +1,4 @@
-/*
+f/*
 Theme Name: minima
 Theme URI: http://andreny.com/minima
 Description: Medium Inspired Wordpres Theme
@@ -337,7 +337,7 @@ footer {
 
 .articleTitleFeatured h1 {
 	padding:5px;
-    border-bottom: 10px solid rgba(46, 204, 113,0.8);
+    border-bottom: 10px solid rgba(46, 204, 113,0.6);
 	color: rgba(255,255,255,0.8);
 }
 
@@ -414,7 +414,7 @@ footer {
 }
 
 .breadcrumb {
-	background-color: #eee;
+	background-color: rgba(189, 195, 199,0.13);
 	border-radius: 2px;
 	padding: 10px;
 	display: inline-block;

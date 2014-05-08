@@ -422,7 +422,7 @@ footer {
 }
 
 .breadcrumb li {
-	display: inline;
+	display: inline-block;
 }
 
 .content p {

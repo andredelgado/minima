@@ -27,8 +27,8 @@
         </span>
     <div class="breadcrumb">
     <ol>
-      <li><a href="#">Home</a></li> <i class="fa fa-caret-right dark"></i>
-      <li><a href="#"><?php the_category($name) ?></a></li> <i class="fa fa-caret-right dark"></i>
+      <li><a href="<?php bloginfo('url'); ?>">Home</a></li> <i class="fa fa-caret-right dark"></i>
+      <li><?php the_category(''); ?></li> <i class="fa fa-caret-right dark"></i>
       <li class="active"><?php the_title(); ?></li>
     </ol>
   </div>

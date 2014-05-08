@@ -41,7 +41,7 @@
      <?php the_content(); ?>
   </article>
    <span class="articleCat">
-          <i class="fa fa-tags" style="padding-right:5px;"></i><?php the_category($name) ?>
+          <i class="fa fa-tags" style="padding-right:5px;"></i><?php the_category(''); ?>
           
         </span>
 <br><br>

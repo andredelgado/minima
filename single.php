@@ -34,7 +34,7 @@
   </div>
     
     <div class="articleShort"><br/>
-          <p>Interesting publisher names kept by developers in Windows Phone Store</p>
+          <p><?php the_field('subtitles'); ?></p>
         </div>
         
   <article class="content">

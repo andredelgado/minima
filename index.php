@@ -18,7 +18,7 @@
         <h1><?php the_title(); ?></h1>
       </div>
       <div class="articleShort">
-        <p>Interesting publisher names kept by developers in Windows Phone Store</p>
+        <p><?php the_field('subtitles'); ?></p>
       </div>
       <span class="articleCat">
         <i class="fa fa-tags"></i><?php the_category($name) ?><br/><br/>

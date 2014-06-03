@@ -1,11 +1,25 @@
 <?php get_header(); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <header class="featured">
-  <!--<img src="http://themes.playnethemes.com/mayde/wp-content/uploads/2014/03/testcase31-copy.jpg">-->
-  <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+  <?php /* ?><?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
   <div class="featuredImage" style="background-image: url(<?php echo $url; ?>);">
     <h1><?php the_title(); ?></h1>
-  </div>
+  </div><?php */ ?>
+<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+  <div class="featuredImage" style="background-image: url(<?php echo $url; ?>);">
+      <div class="container">
+         <div class="headerInner">
+         <center>
+            <div class="topTextInner">
+               <div class="headerTitle"><h1><?php the_title(); ?></h1></div>
+            </div>
+            <div class="HarticleShort"><br/>
+          <p><?php the_field('subtitles'); ?></p>
+        </div>
+         </center>
+      </div>
+      </div>
+   </div>
 
 </header>
 <div class="breadcrumbSpacing"></div>
@@ -22,9 +36,7 @@
     </ol>
   </div>
     
-    <div class="articleShort"><br/>
-          <p><?php the_field('subtitles'); ?></p>
-        </div>
+    
         
   <article class="content">
      <?php the_content(); ?>

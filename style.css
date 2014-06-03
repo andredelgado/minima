@@ -380,6 +380,16 @@ footer {
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
+.HarticleShort p {
+	font-size: 20px;
+	font-weight: 400;
+	text-align: justify;
+	color: #fefefe;
+	padding: 15px 0 15px 0;
+	font-family: Helvetica, Tahoma, sans-serif;
+	text-align: center;
+}
+
 .articleTitleFeatured h1 {
 	padding:5px;
     border-bottom: 10px solid rgba(46, 204, 113,0.6);
@@ -402,6 +412,7 @@ footer {
 
 .articleCat {
 	color: #666665;
+	margin-top: 30px !important;
 }
 .articleCat li {
 	display: inline;
@@ -474,4 +485,10 @@ footer {
 	line-height: 1.7em;
 	margin-bottom: 15px;
 	letter-spacing: 0.1px;
+}
+
+.headerTitle h1 {
+	color: #fefefe;
+	font-size: 60px;
+	font-family: "Myriad Pro Bold";
 }

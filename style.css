@@ -138,6 +138,12 @@ i {
 	max-width: 600px;
 }
 
+.containerBig {
+	margin: 0px auto;
+	max-width: 1100px;
+	padding-top: 50px;
+}
+
 .right {
 	float: right;
 }
@@ -152,9 +158,11 @@ i {
 	position:relative;
 }
 
-.featured img {
+.featuredImage {
 	width: 100%;
 	height: 470px;
+	background-size: cover;
+	background: top center no-repeat fixed;
 }
 
 .featuredInner {

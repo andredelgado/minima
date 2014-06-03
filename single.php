@@ -2,13 +2,17 @@
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <header class="featured">
   <!--<img src="http://themes.playnethemes.com/mayde/wp-content/uploads/2014/03/testcase31-copy.jpg">-->
-  <?php if ( has_post_thumbnail() ) { ?>
+  <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+  <div class="featuredImage" style="background-image: url(<?php echo $url; ?>);">
+
+    <?php /* ?><?php if ( has_post_thumbnail() ) { ?>
     <a href="<?php the_permalink(); ?>">
     <?php the_post_thumbnail( 'full', array( 'class' => 'left',
             'alt'   => trim( strip_tags( $wp_postmeta->_wp_attachment_image_alt ) )
         ) ); ?>
     </a>
-    <?php } ?>
+    <?php } ?><?php */ ?>
+  </div>
 
   <div class="featuredInner">
       <article class="container">

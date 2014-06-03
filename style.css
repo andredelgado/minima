@@ -163,6 +163,7 @@ i {
 	height: 470px;
 	background-size: cover;
 	background: top center no-repeat fixed;
+	box-shadow: 0 470px rgba(0,0,0,0.05) inset;
 }
 
 .featuredInner {
@@ -178,7 +179,7 @@ i {
 }
 
 .topText {
-	font-size: 40px;
+	font-size: 60px;
 	display: inline;
 	color: #fefefe;
 	font-family: "Myriad Pro Bold";
@@ -211,10 +212,6 @@ i {
 	color: #FFF;
 	font-size: 13px;
 	padding-top: 15px;
-}
-
-.btnTop a {
-	text-decoration: none;
 }
 
 .btn {

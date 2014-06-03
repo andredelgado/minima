@@ -3,7 +3,13 @@
    <!--<img src="http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_5287d4367585d_1.JPG">-->
    <div class="featuredImage" style="background-image: url(<?php bloginfo('template_url') ?>/img/bgFET.jpg);">
       <div class="container">
-         testestesteset
+         <center>
+            <div class="topTextInner">
+               <div class="topText"></div>
+            </div>
+            <br/><br/><br/><br/><br/><br/>
+            <a style="text-decoration: none;" href="#"><div class="btnTop"><p>Who is André?</p></div></a>
+         </center>
       </div>
    </div>
 </header>

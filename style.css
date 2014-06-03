@@ -177,6 +177,46 @@ i {
     margin-left: -350px;
 }
 
+.topText {
+	font-size: 40px;
+	display: inline;
+	color: #fefefe;
+	font-family: "Myriad Pro Bold";
+}
+
+.topTextInner {
+	padding-top: 150px;
+}
+
+.btnTop {
+	width: 200px;
+	height: 40px;
+	background-color: #2ecc71;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+	margin-top: -20px;
+	border-radius: 2px;
+}
+
+.btnTop:hover {
+	background-color: #333;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.btnTop p {
+	text-align: center;
+	color: #FFF;
+	font-size: 13px;
+	padding-top: 15px;
+}
+
+.btnTop a {
+	text-decoration: none;
+}
+
 .btn {
 	width: 100px;
 	height: 30px;

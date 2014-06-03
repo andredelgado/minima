@@ -4,24 +4,9 @@
   <!--<img src="http://themes.playnethemes.com/mayde/wp-content/uploads/2014/03/testcase31-copy.jpg">-->
   <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
   <div class="featuredImage" style="background-image: url(<?php echo $url; ?>);">
-
-    <?php /* ?><?php if ( has_post_thumbnail() ) { ?>
-    <a href="<?php the_permalink(); ?>">
-    <?php the_post_thumbnail( 'full', array( 'class' => 'left',
-            'alt'   => trim( strip_tags( $wp_postmeta->_wp_attachment_image_alt ) )
-        ) ); ?>
-    </a>
-    <?php } ?><?php */ ?>
+    <h1><?php the_title(); ?></h1>
   </div>
 
-  <div class="featuredInner">
-      <article class="container">
-        <div class="articleTitleFeatured">
-          <h1><?php the_title(); ?></h1>
-        </div>
-      </article>
-    </div>
-  </div>
 </header>
 <div class="breadcrumbSpacing"></div>
   <section class="container">

@@ -161,7 +161,7 @@ i {
 .featuredImage {
 	width: 100%;
 	height: 470px;
-	background-size: cover;
+	background-size: cover !important;
 	background: top center no-repeat fixed;
 	box-shadow: 0 470px rgba(0,0,0,0.05) inset;
 }

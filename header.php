@@ -2,7 +2,14 @@
 <html <?php language_attributes(); ?>>
 <head>
   <meta charset="<?php bloginfo( 'charset' ); ?>" />
-  <title><?php bloginfo('name'); ?></title>
+  
+  <title> <?php the_title(); ?> &raquo; <?php bloginfo('name'); ?></title>
+  
+  <meta name="description" content="<?php if (have_posts()): while (have_posts()): the_post(); echo strip_tags(get_the_excerpt()); endwhile; endif; ?>" />
+  
+  <link rel="alternate" type="application/atom+xml" title="<?php bloginfo('name'); ?> Atom Feed (<?php bloginfo('language'); ?>)" href="<?php bloginfo('atom_url'); ?>" />
+  <link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/img/favicon.ico" />
+
   <link rel="profile" href="http://gmpg.org/xfn/11" />
   
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -16,3 +23,4 @@
   <?php wp_head(); ?> 
 </head>
 <body>
+
